@@ -13,15 +13,15 @@
 </head>
 <body>
     <div class="container text-center">
-        <form action="GET">
+        <form action="answere.php">
             
             <div class="mb-3">
                 <label for="word-area" class="form-label">Parola da censurare</label>
-                <input type="text" class="form-control" id="word-area" placeholder="scrivi qui la parola...">
+                <input name='word' type="text" class="form-control" id="word-area" placeholder="scrivi qui la parola...">
             </div>
             <div class="mb-3">
                 <label for="text-area" class="form-label">Frase con parola interessata</label>
-                <textarea class="form-control" id="text-area" rows="3"></textarea>
+                <textarea name="phrase" class="form-control" id="text-area" rows="3"></textarea>
             </div>
             <button class="btn btn-primary">Invia Richiesta</button>
         </form>
